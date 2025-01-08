@@ -1,0 +1,9 @@
+body {
+  background-color: red;
+}
+
+@media (orientation: landscape) {
+  body {
+    background-color: aqua;
+  }
+}

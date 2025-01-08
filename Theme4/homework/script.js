@@ -1,0 +1,12 @@
+import { greet } from "./modules/greet.js";
+import { celsiusToFahrenheit } from "./modules/celsiusToFahrenheit.js";
+import { calculateFallDistance } from "./modules/calculateFallDistance.js";
+import { calculateAverage } from "./modules/calculateAverage.js";
+import { concatStrings } from "./modules/concatStrings.js";
+export let myName = "Vladimir";
+let celsius = 50, time = 10;
+greet();
+console.log("celsius into farenheit = ", celsiusToFahrenheit(celsius));
+console.log("fall distance = ", calculateFallDistance(time));
+console.log("average = ", calculateAverage(5, 10, 20));
+concatStrings("Dog", "Cat");

@@ -1,0 +1,16 @@
+let array = ["first", "second"]
+console.log(array)
+let array1 = new Array(10)
+console.log(array1.length)
+console.log(array[0])
+array[10] = "tenth"
+array.push("new1", "new2")
+console.log(array)
+array.pop()
+console.log(array)
+array.unshift("ferst1", 'first2')
+console.log(array)
+array.shift()
+console.log(array)
+let numbers = [23, 435, 767, 3, 666, 47, 435].sort((a,b) => b - a)
+console.log(numbers)

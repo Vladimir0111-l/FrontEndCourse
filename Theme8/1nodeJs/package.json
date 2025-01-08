@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "vladimir",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0"
+  }
+}

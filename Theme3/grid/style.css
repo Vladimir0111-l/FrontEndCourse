@@ -1,0 +1,28 @@
+.parent {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 100px auto 50%;
+  grid-template-rows: 100px 300px 100px;
+}
+
+.child {
+  background-color: red;
+}
+
+.child.child_wide {
+  grid-column: span 2;
+} 
+
+.child.child_high {
+  grid-row: span 2;
+}
+
+.child.child_big {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.child.child_footer {
+  grid-column: span 3;
+  background-color: blue;
+}

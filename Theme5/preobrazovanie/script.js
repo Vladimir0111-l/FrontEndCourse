@@ -1,0 +1,15 @@
+console.log("10" - true)
+console.log("10" * null)
+console.log(String(20, 213))
+console.log(String(20.56))
+console.log(String(false))
+console.log(String(null))
+console.log(String(function(){}))
+console.log(String([1,2,3,4]))
+console.log(String({key: 213}))
+//Nan 0 "" undefined
+console.log(Boolean("asdsad"))
+
+console.log(Number(234.435))
+console.log(parseInt(2314.234))
+console.log(parseFloat(2143.324234))

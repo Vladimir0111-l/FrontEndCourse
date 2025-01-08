@@ -1,0 +1,29 @@
+* {
+  font-size: 30px;
+}
+section > ul > li >button {
+  color: brown;
+}
+
+li + li {
+  margin-top: 30px;
+}
+
+ul + button {
+  color: blue;
+}
+[href="#"] {
+  color: yellow;
+}
+
+a.important {
+  color: beige;
+}
+
+a#imp {
+  color: aquamarine;
+}
+
+div, button {
+  background-color: red;
+}

@@ -1,0 +1,23 @@
+li:first-child {
+  background-color: aqua;
+}
+
+li:last-child {
+  background-color: blue;
+}
+
+li:nth-child(3n) {
+  background-color: brown;
+}
+
+button:hover {
+  background-color: aquamarine;
+}
+
+button:active {
+  background-color: blanchedalmond;
+}
+
+button:focus {
+  background-color: chocolate;
+}
